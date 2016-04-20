@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item android:drawable="@drawable/rainbows1" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows2" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows3" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows4" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows5" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows6" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows7" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows8" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows9" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows10" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows11" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows12" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows13" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows14" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows15" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows16" android:duration="150"/>
+    <item android:drawable="@drawable/rainbows17" android:duration="150"/>
+</animation-list>
+

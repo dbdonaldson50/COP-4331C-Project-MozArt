@@ -1,0 +1,109 @@
+<!-- This shit ain't pretty, but it'll work. We can make it better later -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.thefirstorder.mozart.Player">
+
+    <TextView
+        android:id="@+id/info"
+        android:text="HeyThereTesterStrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/timeDur"
+        android:layout_centerHorizontal="true" />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:indeterminate="false"
+        android:layout_above="@+id/btPlay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="||"
+        android:id="@+id/btPlay"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="&lt;&lt;"
+        android:id="@+id/btRW"
+        android:layout_alignTop="@+id/btPlay"
+        android:layout_toRightOf="@+id/btPrv"
+        android:layout_toEndOf="@+id/btPrv" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text=">>"
+        android:id="@+id/btFF"
+        android:layout_alignTop="@+id/btPlay"
+        android:layout_toLeftOf="@+id/btNxt"
+        android:layout_toStartOf="@+id/btNxt" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="|&lt;"
+        android:id="@+id/btPrv"
+        android:layout_alignTop="@+id/btRW"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text=">|"
+        android:id="@+id/btNxt"
+        android:layout_alignTop="@+id/btFF"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MozArt"
+        android:id="@+id/btMA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btNxt"
+        android:layout_alignEnd="@+id/btNxt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Elapsed"
+        android:id="@+id/timePos"
+        android:layout_above="@+id/seekBar"
+        android:layout_alignRight="@+id/btRW"
+        android:layout_alignEnd="@+id/btRW" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Left"
+        android:id="@+id/timeDur"
+        android:layout_above="@+id/seekBar"
+        android:layout_alignLeft="@+id/btFF"
+        android:layout_alignStart="@+id/btFF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/albumArt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp" />
+
+</RelativeLayout>
